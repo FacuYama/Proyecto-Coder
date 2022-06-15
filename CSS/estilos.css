@@ -18,12 +18,12 @@
     height: 70px;
     align-items: center;
 }
-/* .logovertical{
+.logovertical{
     transition: transform 1.5s;
 }
 .logovertical:hover{
     transform: scale(1.2);
-} */
+}
 .color:hover{
     color: rgb(255, 245, 106);
 }
@@ -72,15 +72,21 @@ body{
 .logo:hover{
     transform: scale(1.2);
 }
-.contenedor{
+/* .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+} */
+.cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
 }
-.cajas{
+.misiones{
     background-color: darksalmon;
-    height: 500px;
+    height: 650px;
     width: 400px;
     font-size: 20px;
     border: 3px solid grey;
@@ -120,6 +126,9 @@ body{
     font-size: 20px;
     margin-top: 0px;
 }
+
+/*QUIENESSOMOS*/
+
 .tituloquienessomos{
     font-size: 35px;
     text-align: center;
@@ -138,8 +147,11 @@ body{
     color: aliceblue;
 }
 .grupo-de-pares{
-    text-align: left;
+    text-align: center;
 }
+
+/*ASOCIATE*/
+
 .tituloasociate{
     font-size: 35px;
     text-align: center;
@@ -183,10 +195,13 @@ body{
 .texto-presidente{
     font-size: 20px;
 }
-.imagen-presidente{
+/* .imagen-presidente{
     transform: scale;
-}
-.formulario{
+} */
+
+/*CONTACTO*/
+
+/* .formulario{
     width: 400px;
     background-color: burlywood;
     padding: 40px;
@@ -194,7 +209,6 @@ body{
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
-
 }
 .formulario h1{
     font-size: 22px;
@@ -218,8 +232,14 @@ body{
     color: black;
     margin: 16px 0;
     font-size: 16px;
+} */
+.needs-validation{
+    width: 100%;
+    background-color: burlywood;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
 }
-
 
 @media (max-width: 900px) {
     ul{

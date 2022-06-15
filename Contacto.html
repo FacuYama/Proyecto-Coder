@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/estilos.css">
     <script src="https://kit.fontawesome.com/637f361dfc.js" crossorigin="anonymous"></script>
     <link
@@ -39,7 +40,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="formulario">
+        <!-- <div class="formulario">
             <h1>Formulario</h1>
         <form action="" method="get" enctype="text/plain">
             <input class="controls" type="text" name="nombre" placeholder="nombre">
@@ -51,8 +52,61 @@
             <input class="botons" type="submit" name="Enviar" value="Enviar">
             <input class="botons" type="reset" name="Borrar" value="Borrar Formulario">
         </form>
-        </div>
+        </div> -->
         <div>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Primer nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Facundo" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Yamaguchi" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Provincia</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
             <footer id="footer">
                 <div class="container__footer">
                     <div class="box__fooder">
@@ -71,11 +125,16 @@
                     </div>
                     <div class="box__footer">
                         <h5>Redes Sociales</h5>
-                        <div class="enlacesredes">
+                        <!-- <div class="enlacesredes">
                             <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/"> <i><i class="fa-brands fa-facebook-square"></i></i> Facebook</a>
                             <a href="https://www.instagram.com/adultxs1/"> <i><i class="fa-brands fa-instagram"></i></i> Instagram</a>
                             <a href="https://twitter.com/adultxs"> <i><i class="fa-brands fa-twitter"></i></i> Twitter</a>
-                        </div>
+                        </div> -->
+                        <div class="btn-group">
+                            <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/" class="btn btn-primary active fa-brands fa-facebook-square" aria-current="page">Facebook</a>
+                            <a href="https://www.instagram.com/adultxs1/" class="btn btn-primary fa-brands fa-instagram">Instagram</a>
+                            <a href="https://twitter.com/adultxs" class="btn btn-primary fa-brands fa-twitter">Twitter</a>
+                          </div>
                     </div>
                 </div>
                 <div class="letra">
@@ -84,6 +143,7 @@
             </footer>
         </div>
     </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
 

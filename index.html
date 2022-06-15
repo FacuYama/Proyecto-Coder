@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilos.css">
     <script src="https://kit.fontawesome.com/637f361dfc.js" crossorigin="anonymous"></script>
     <link
@@ -59,43 +60,85 @@
             <section class="videos">
                 <h3>FRASE MAS VIDEO</h3>
                 <P>EL ABUSO SEXUAL CONTAR LA INFANCIA EXISTE</P>
-                <iframe width="100%" height="495" src="https://www.youtube.com/embed/1p7VrDOcp10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/1p7VrDOcp10" title="YouTube video" allowfullscreen></iframe>
+                </div>
+                <!-- <iframe width="100%" height="495" src="https://www.youtube.com/embed/1p7VrDOcp10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             </section>
-            <section class="contenedor">
-                <div class="cajas">
-                    <h4>Nuestra mision</h4>
-                        <p>Trabajamos con el compromiso y la certeza de que el abuso sexual y el maltrato hacia la infancia son un daño absolutamente evitable.
-    
-                            Brindamos nuestros testimonios en primera persona a la comunidad en los más diversos ámbitos sociales para Visibilizar y Concientizar públicamente esta problemática.
-                            
-                            Compartimos las herramientas para la formación de Grupos de Encuentro Solidario de Pares de sobrevivientes adultos y adultas y protectores de niños y niñas víctimas en todo el país.
-                            
-                            Nuestro mensaje es esperanzador debido a que tenemos la convicción que los/as/es sobrevivientes de este delito podemos tener una vida plena y feliz si la sociedad adulta permite a las víctimas expresar sus dolores y sentimientos y se termina el permiso social hacia los y las agresores.</p>
+            <!-- <main class="container">
+                <section  id="cards" class="cards">
+                    <div class="cajas">
+                        <h4>Nuestra mision</h4>
+                            <p>Trabajamos con el compromiso y la certeza de que el abuso sexual y el maltrato hacia la infancia son un daño absolutamente evitable.
+        
+                                Brindamos nuestros testimonios en primera persona a la comunidad en los más diversos ámbitos sociales para Visibilizar y Concientizar públicamente esta problemática.
+                                
+                                Compartimos las herramientas para la formación de Grupos de Encuentro Solidario de Pares de sobrevivientes adultos y adultas y protectores de niños y niñas víctimas en todo el país.
+                                
+                                Nuestro mensaje es esperanzador debido a que tenemos la convicción que los/as/es sobrevivientes de este delito podemos tener una vida plena y feliz si la sociedad adulta permite a las víctimas expresar sus dolores y sentimientos y se termina el permiso social hacia los y las agresores.</p>
+                    </div>
+                    <div class="cajas">
+                        <h4>Nuestra vision</h4>
+                            <p>Incidir en la sociedad adulta para generar conciencia acerca de la vulnerabilidad de la infancia.
+        
+                                Contribuir a construir pautas y líneas de acción colectivas para lograr una efectiva protección de niños, niñas y adolescentes.
+                                
+                                Motivar la toma de conciencia ciudadana sobre la magnitud y el impacto social del abuso sexual y el maltrato en la infancia.
+                                
+                                Intervenir en el debate público para contribuir a generar legislaciones protectoras de la infancia frente al delito de abuso sexual y otros abusos.
+                                
+                                Lograr una mayor significación de los derechos de la infancia en la agenda pública y política de la sociedad democrática.
+                                
+                                Impulsar una agenda pública en la que la infancia y la protección de sus derechos sea el eje rector de todas las decisiones políticas.</p>
+                    </div>
+                    <div class="cajas">
+                        <h4>Nuestros valores</h4>
+                            <p>Honestidad: la dignidad de trabajar por lo que es justo</p>
+                            <p>Responsabilidad: el cuidar la infancia es nuestra razón de ser</p>
+                            <p>Solidaridad: el bien que le hago a mi semejante me sana a mí</p>
+                            <p>Ética: compromiso con la defensa y promoción de los derechos humanos</p>
+                            <p>Autenticidad: el coraje de hacer el bien por los/as más débiles.</p>
+                            <p>Empatía: sabemos escuchar.</p>
+                    </div>
+                </section>
+            </main> -->
+            <div class="container">
+                <div class="row">
+                  <div class="col misiones">
+                    <h2>Nuestra mision</h2>
+                    <p>Trabajamos con el compromiso y la certeza de que el abuso sexual y el maltrato hacia la infancia son un daño absolutamente evitable.
+        
+                        Brindamos nuestros testimonios en primera persona a la comunidad en los más diversos ámbitos sociales para Visibilizar y Concientizar públicamente esta problemática.
+                        
+                        Compartimos las herramientas para la formación de Grupos de Encuentro Solidario de Pares de sobrevivientes adultos y adultas y protectores de niños y niñas víctimas en todo el país.
+                        
+                        Nuestro mensaje es esperanzador debido a que tenemos la convicción que los/as/es sobrevivientes de este delito podemos tener una vida plena y feliz si la sociedad adulta permite a las víctimas expresar sus dolores y sentimientos y se termina el permiso social hacia los y las agresores.</p>
+                  </div>
+                  <div class="col order-5 misiones">
+                    <h2>Nuestra vision</h2>
+                    <p>Incidir en la sociedad adulta para generar conciencia acerca de la vulnerabilidad de la infancia.
+        
+                        Contribuir a construir pautas y líneas de acción colectivas para lograr una efectiva protección de niños, niñas y adolescentes.
+                        
+                        Motivar la toma de conciencia ciudadana sobre la magnitud y el impacto social del abuso sexual y el maltrato en la infancia.
+                        
+                        Intervenir en el debate público para contribuir a generar legislaciones protectoras de la infancia frente al delito de abuso sexual y otros abusos.
+                        
+                        Lograr una mayor significación de los derechos de la infancia en la agenda pública y política de la sociedad democrática.
+                        
+                        Impulsar una agenda pública en la que la infancia y la protección de sus derechos sea el eje rector de todas las decisiones políticas.</p>
+                  </div>
+                  <div class="col order-1 misiones">
+                    <h2>Nuestros valores</h2>
+                    <p>Honestidad: la dignidad de trabajar por lo que es justo</p>
+                            <p>Responsabilidad: el cuidar la infancia es nuestra razón de ser</p>
+                            <p>Solidaridad: el bien que le hago a mi semejante me sana a mí</p>
+                            <p>Ética: compromiso con la defensa y promoción de los derechos humanos</p>
+                            <p>Autenticidad: el coraje de hacer el bien por los/as más débiles.</p>
+                            <p>Empatía: sabemos escuchar.</p>
+                  </div>
                 </div>
-                <div class="cajas">
-                    <h4>Nuestra vision</h4>
-                        <p>Incidir en la sociedad adulta para generar conciencia acerca de la vulnerabilidad de la infancia.
-    
-                            Contribuir a construir pautas y líneas de acción colectivas para lograr una efectiva protección de niños, niñas y adolescentes.
-                            
-                            Motivar la toma de conciencia ciudadana sobre la magnitud y el impacto social del abuso sexual y el maltrato en la infancia.
-                            
-                            Intervenir en el debate público para contribuir a generar legislaciones protectoras de la infancia frente al delito de abuso sexual y otros abusos.
-                            
-                            Lograr una mayor significación de los derechos de la infancia en la agenda pública y política de la sociedad democrática.
-                            
-                            Impulsar una agenda pública en la que la infancia y la protección de sus derechos sea el eje rector de todas las decisiones políticas.</p>
-                </div>
-                <div class="cajas">
-                    <h4>Nuestros valores</h4>
-                        <p>Honestidad: la dignidad de trabajar por lo que es justo</p>
-                        <p>Responsabilidad: el cuidar la infancia es nuestra razón de ser</p>
-                        <p>Solidaridad: el bien que le hago a mi semejante me sana a mí</p>
-                        <p>Ética: compromiso con la defensa y promoción de los derechos humanos</p>
-                        <p>Autenticidad: el coraje de hacer el bien por los/as más débiles.</p>
-                        <p>Empatía: sabemos escuchar.</p>
-                </div>
-            </section>
+            </div>
     <div>
         <footer id="footer">
             <div class="container__footer">
@@ -127,5 +170,6 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

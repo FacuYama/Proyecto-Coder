@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilos.css">
     <script src="https://kit.fontawesome.com/637f361dfc.js" crossorigin="anonymous"></script>
     <link
@@ -42,7 +43,7 @@
                 </li>
             </ul>
         </nav>
-        <img src="image/logo-vertical-OK.jpg" width="100%" alt="">
+        <img src="image/logo-vertical-OK.jpg" class="img-fluid" alt="...">
         <section id="descripcion" class="descripcion">
             <h2>QUIENES SOMOS, NUESTRA MISION</h2>
                 <p>Somos un colectivo independiente y autogestionario nacido en 2012, conformado por adultos/as comprometidos/as con la defensa de los derechos de niños, niñas y adolescentes.
@@ -58,6 +59,32 @@
                     Adultxs por los derechos de la infancia no es un grupo terapéutico ni profesional; somos pares compartiendo desde nuestra experiencia, y somos un colectivo de lucha y construcción comunitaria, comprometido con el intento de cambiar la suerte presente y futura de la infancia.</p>
                 <center><img src="../Pages/image/icono.png" alt="" width="200" class="logo"></center>
         </section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/alberto.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/pepe.jfif" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Jaz-silvia.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </header>
         <div>
             <footer id="footer">
@@ -90,6 +117,6 @@
                 </div>
             </footer>
         </div>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
