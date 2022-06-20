@@ -13,11 +13,8 @@
     />
 </head>
 <body>
-    <header>
-        <div class="tituloquienessomos">
-        <h1>Quienes Somos</h1>
-        </div>
-        <nav>
+    <header class="header">
+        <nav class="navegation">
             <ul class="menu">
                 <li>
                     <a href="./index.html"><img class="logovertical animate__animated animate__zoomIn" src="./image/logo-vertical-OK.jpg" alt=""></a>
@@ -42,6 +39,7 @@
                 </li>
             </ul>
         </nav>
+    </header>
         <img src="image/logo-vertical-OK.jpg" width="100%" alt="">
         <section id="descripcion" class="descripcion">
             <h2>QUIENES SOMOS, NUESTRA MISION</h2>
@@ -58,38 +56,64 @@
                     Adultxs por los derechos de la infancia no es un grupo terapéutico ni profesional; somos pares compartiendo desde nuestra experiencia, y somos un colectivo de lucha y construcción comunitaria, comprometido con el intento de cambiar la suerte presente y futura de la infancia.</p>
                 <center><img src="../Pages/image/icono.png" alt="" width="200" class="logo"></center>
         </section>
-        </header>
-        <div>
-            <footer id="footer">
-                <div class="container__footer">
-                    <div class="box__fooder">
-                        <div class="logo">
-                            <img src="" alt="">
-                        </div>
+        <section class="carrucel">
+            <div class="container-all">
+                <input type="radio" id="1" name="image-slide" hidden>
+                <input type="radio" id="2" name="image-slide" hidden>
+                <input type="radio" id="3" name="image-slide" hidden>
+                <div class="slide">
+                    <div class="item-slide">
+                        <img src="./image/alberto.jpg" alt="">
                     </div>
-                    <div class="box__footer">
-                        <h5>Galeria de imagenes</h5>
+                    <div class="item-slide">
+                        <img src="./image/Jaz-Silvia.jpg" alt="">
                     </div>
-                    <div class="box__footer">
-                        <h5>Videos</h5>
-                    </div>
-                    <div class="box__footer">
-                        <h5>Preguntas Frecuentes</h5>
-                    </div>
-                    <div class="box__footer">
-                        <h5>Redes Sociales</h5>
-                        <div class="enlacesredes">
-                            <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/"> <i><i class="fa-brands fa-facebook-square"></i></i> Facebook</a>
-                            <a href="https://www.instagram.com/adultxs1/"> <i><i class="fa-brands fa-instagram"></i></i> Instagram</a>
-                            <a href="https://twitter.com/adultxs"> <i><i class="fa-brands fa-twitter"></i></i> Twitter</a>
-                        </div>
+                    <div class="item-slide">
+                        <img src="./image/Imagen-reunion-maderos.jpg" alt="">
                     </div>
                 </div>
-                <div class="letra">
-                    <h5>ONG INSCRIPTA EN LA INSPECCION GENERAL DE JUSTICIA.12771</h5>
+                <div class="pagination">
+                    <label class="pagination-item" for="1">
+                        <img src="./image/alberto.jpg" alt="">
+                    </label>
+                    <label class="pagination-item" for="2">
+                        <img src="./image/Jaz-Silvia.jpg" alt="">
+                    </label>
+                    <label class="pagination-item" for="3">
+                        <img src="./image/Imagen-reunion-maderos.jpg" alt="">
+                    </label>
                 </div>
-            </footer>
+            </div>
+        </section>
+    
+          <footer>
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="./image/logo-vertical-OK.jpg" alt="">
+                    </div>
+                    <div class="terminos">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur ducimus eius unde culpa sunt, quae deserunt assumenda numquam cum nam aut earum commodi repellendus reiciendis obcaecati, veniam ipsa tempore?</p>
+                    </div>
+                </div>
+                <div class="box__footer">
+                    <h3>Galeria de imagenes</h3>
+                </div>
+                <div class="box__footer">
+                    <h3>Preguntas frecuentes</h3>
+                </div>
+                <div class="box__footer">
+                    <h3>Redes sociales</h3>
+                    <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/"> <i><i class="fa-brands fa-facebook-square"></i></i> Facebook</a>
+                        <a href="https://www.instagram.com/adultxs1/"> <i><i class="fa-brands fa-instagram"></i></i> Instagram</a>
+                        <a href="https://twitter.com/adultxs"> <i><i class="fa-brands fa-twitter"></i></i> Twitter</a>
+                </div>
+            </div>
+            <div class="box_copyright">
+                <hr>
+                <p>ONG INSCRIPTA EN LA INSPECCIÓN GENERAL DE JUSTICIA. 12771</p>
+            </div>
+        </footer>
         </div>
-
 </body>
 </html>

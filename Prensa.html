@@ -13,11 +13,8 @@
     />
 </head>
 <body>
-    <header>
-        <div class="tituloprensa">
-        <h1>Prensa</h1>
-        </div>
-        <nav>
+    <header class="header">
+        <nav class="navegation">
             <ul class="menu">
                 <li>
                     <a href="./index.html"><img class="logovertical animate__animated animate__zoomIn" src="./image/logo-vertical-OK.jpg" alt=""></a>
@@ -41,13 +38,15 @@
                     <a href="./Contacto.html" class="color animate__animated animate__slideInDown" >Contacto</a>
                 </li>
             </ul>
-            <img class="portada" src="./image/pepe.jfif" alt="imagen de la reunion de pares">
         </nav>
+    </header>
+            <img class="portada" src="./image/pepe.jfif" alt="imagen de la reunion de pares">
         <div class="prensa">
         <div class="encuentro-con-el-presidente-de-la-nacion">
             <h2>ENCUNTRO CON EL PRESIDENTE DE LA NACION</h2>
         </div>
-        <img  class="imagen-presidente" src="./image/alberto.jpg"  width="100%" alt="">
+        <img src="./image/alberto.jpg" class="img-fluid" alt="...">
+       <!--  <img class="imagen-presidente" src="./image/alberto.jpg"  width="100%" alt=""> -->
         <div class="texto-presidente">
         <p>El 19 de Noviembre pasado, en el marco del Día Internacional de Lucha contra el Abuso Sexual, los/as Adultxs por los Derechos de la Infancia fuimos recibidos por el Presidente de la Nación, Alberto Fernández, en la Casa Rosada.
             Encuentro de un significativo valor simbólico, público e institucional al que concurrimos acompañados por nuestro maravilloso libro “Somos Sobrevivientes, crónicas de abuso sexual en la infancia”, y por Claudia Aboaf, Félix Bruzzone y Fabián Martínez Siccardi, tres de sus excelentes autores. 
@@ -56,10 +55,9 @@
             </p>
         </div>
         </div>
-    </header>
     <main class="noticias">
         <section class="grilla" >
-            <div class="encuentros">Prensa</div>
+            <div class="encuentros encuentros-titulo">Prensa</div>
             <div class="encuentros">
                 <a href="https://www.telam.com.ar/notas/202111/575352-derechos-de-infancia-alberto-fernandez-reunion.html"> Fernández recibió a una organización por los derechos de la infancia y expresó su "compromiso" de trabajar juntos</a>
             </div>
@@ -77,36 +75,33 @@
             </div>
         </section>
     </main>
-    <div>
-        <footer id="footer">
-            <div class="container__footer">
-                <div class="box__fooder">
-                    <div class="logo">
-                        <img src="" alt="">
-                    </div>
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="./image/logo-vertical-OK.jpg" alt="">
                 </div>
-                <div class="box__footer">
-                    <h5>Galeria de imagenes</h5>
-                </div>
-                <div class="box__footer">
-                    <h5>Videos</h5>
-                </div>
-                <div class="box__footer">
-                    <h5>Preguntas Frecuentes</h5>
-                </div>
-                <div class="box__footer">
-                    <h5>Redes Sociales</h5>
-                    <div class="enlacesredes">
-                        <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/"> <i><i class="fa-brands fa-facebook-square"></i></i> Facebook</a>
-                        <a href="https://www.instagram.com/adultxs1/"> <i><i class="fa-brands fa-instagram"></i></i> Instagram</a>
-                        <a href="https://twitter.com/adultxs"> <i><i class="fa-brands fa-twitter"></i></i> Twitter</a>
-                    </div>
+                <div class="terminos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim tenetur ducimus eius unde culpa sunt, quae deserunt assumenda numquam cum nam aut earum commodi repellendus reiciendis obcaecati, veniam ipsa tempore?</p>
                 </div>
             </div>
-            <div class="letra">
-                <h5>ONG INSCRIPTA EN LA INSPECCION GENERAL DE JUSTICIA.12771</h5>
+            <div class="box__footer">
+                <h3>Galeria de imagenes</h3>
             </div>
-        </footer>
+            <div class="box__footer">
+                <h3>Preguntas frecuentes</h3>
+            </div>
+            <div class="box__footer">
+                <h3>Redes sociales</h3>
+                <a href="https://www.facebook.com/adultxsporlosderechosdelainfancia/"> <i><i class="fa-brands fa-facebook-square"></i></i> Facebook</a>
+                    <a href="https://www.instagram.com/adultxs1/"> <i><i class="fa-brands fa-instagram"></i></i> Instagram</a>
+                    <a href="https://twitter.com/adultxs"> <i><i class="fa-brands fa-twitter"></i></i> Twitter</a>
+            </div>
+        </div>
+        <div class="box_copyright">
+            <hr>
+            <p>ONG INSCRIPTA EN LA INSPECCIÓN GENERAL DE JUSTICIA. 12771</p>
+        </div>
+    </footer>
     </div>
-</body>
 </html>
