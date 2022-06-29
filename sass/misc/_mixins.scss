@@ -1,0 +1,15 @@
+/* .flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+@mixin flex($just-content, $dir, $f-wrap) {
+    display: flex;
+    justify-content: $just-content;
+    flex-direction: $dir;
+    flex-wrap: $f-wrap;
+
+
+}
