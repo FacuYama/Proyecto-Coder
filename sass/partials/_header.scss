@@ -1,51 +1,52 @@
 .header{
-    .navegation ul li{
-        display: inline-block;
-
-        .navegation ul li a{
-            display: block;
-            padding: 5px;
-            font-family: Arial, Helvetica, sans-serif;
-            align-items: center;
-            transition: all 0.6s linear;
-            border-radius: 5px;
-        }
-        .navegation ul li a:hover{
-            background-color: rgb(197, 197, 197);
-        }
-    }
-
-    .menu{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-        gap: 1rem;
-        align-items: center ;
-
-        .logovertical{
-            height: 70px;
-            align-items: center;
-            background-color: white;
-        }
-        .logovertical{
-            transition: transform 4s;
-        }
-        .logovertical:hover{
-            transform: scale(1.2);
-            background-color: white;
-        }
-        .color:hover{
-            color: black;
-        }
-        .color{
-            color: rgb(0, 0, 0);
-            padding: 10px 30px;
-            font-size: 22px;
-            text-decoration: none;
-            display: inline-block;
-            transition: color 2s;
-            align-items: center;
-        }
-    }
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10;
+}
+.menu{
+    list-style-type: none;
+    @include flex(space-evenly, start, start);
+    gap: 1rem;
+    align-items: center ;
+}
+.logovertical{
+    height: 70px;
+    align-items: center;
+    background-color: white;
+}
+.logovertical{
+    transition: transform 4s;
+}
+.logovertical:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+.color:hover{
+    color: black;
+}
+.navegation ul li{
+    display: inline-block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    transition: all 0.6s linear;
+    border-radius: 5px;
+}
+.navegation ul li a:hover{
+    background-color: rgb(197, 197, 197);
+}
+.color{
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    font-size: 2.2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 2s;
+    align-items: center;
 }

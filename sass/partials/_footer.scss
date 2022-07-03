@@ -2,77 +2,63 @@
 
 footer{
     width: 100%;
-    padding: 50px 0px;
-    background-color: rgb(199, 199, 199);
+    padding: 5rem 0rem;
+    background-color: $alternative;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: $text-intermedio;
+}
+.box__footer .logo img{
+    width: 18rem;
+}
+.box__footer .terminos{
+    max-width: 35rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: $text-base;
+}
+.box__footer h3{
+    margin-bottom: 3rem;
+    color: #343434;
+    font-weight: 700;
+    font-size: $text-base;
+}
+.box__footer a{
+    margin-top: 1rem;
+    color: $text-color-3;
+    font-weight: 600;
+}
 
-    .container__footer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: auto;
-        margin-top: 5px;
-
-        .box__footer{
-            display: flex;
-            flex-direction: column;
-            padding: 40px;
-
-            .logo{
-                transition: transform 1.5s;
-
-                .box__footer .logo img{
-                    width: 180px;
-                }
-            }
-            .logo:hover{
-                transform: scale(1.2);
-            }
-
-            .box__footer .terminos{
-                max-width: 350px;
-                margin-top: 20px;
-                font-weight: 500;
-                color: #7a7a7a;
-                font-size: 18px;
-            }
-
-            .box__footer h3{
-                margin-bottom: 30px;
-                color: #343434;
-                font-weight: 700;
-            }
-            .box__footer a{
-                margin-top: 10px;
-                color: #7a7a7a;
-                font-weight: 600;
-
-                &:hover{
-                    opacity: 0.8;
-                }
-                
-                .box__footer a .fa-brands{
-                    font-size: 20px;
-                }
-                
-            }
-        }    
-    }
-    .box_copyright{
-        max-width: 1200px;
-        margin: auto;
-        text-align: center;
-        padding: 0px 40px;
-
-        .box_copyright p{
-            margin-top: 20px;
-            color: #7a7a7a;
-        }
-        
-        .box_copyright hr{
-            border: none;
-            height: 2px;
-            background-color: #7a7a7a;
-        }
-    }
+.box__footer a:hover{
+    opacity: 0.8;
+}
+.box__footer a .fa-brands{
+    font-size: $text-medium;
+}
+.box_copyright{
+    max-width: 120rem;
+    margin: auto;
+    text-align: center;
+    padding: 0rem 4rem;
+}
+.box_copyright p{
+    margin-top: 2rem;
+    color: $text-color-3;
+}
+.box_copyright hr{
+    border: none;
+    height: 0.2rem;
+    background-color: $text-color-3;
 }

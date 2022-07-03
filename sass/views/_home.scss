@@ -1,48 +1,50 @@
 /*HOME*/
 
+.portada{
+    padding-top: 11rem;
+    width: 100%;
+    height: 400px;
+}
+
 .descripcion{
     position: relative;
     left: 11rem;
-    width: 600px;
-    padding: 10px;
+    width: 60rem;
+    padding: 1rem;
     display: block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-family: $font-descripcion;
+    font-size: $text-base;
     text-align: justify;
-    color: rgb(49, 48, 48);
+    color: $text-color-1;
 
-    .descripcion-titulo{
-        background-color: rgb(186, 255, 108);
-    }
 }
-
+.descripcion-titulo{
+    background-color: $secondary;
+}
 .videos{
     text-align: center;
-
-    .video-titulo{
-        padding: 5rem;
-        font-size: 40px;
-    }
 }
-
+.video-titulo{
+    padding: 5rem;
+    font-size: $text-large;
+}
+.logo{
+    transition: transform 1.5s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
 .contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-
-    .cajas{
-        /* background-color: darksalmon; */
-        height: 500px;
-        width: 400px;
-        font-size: 20px;
-        /* border: 3px solid grey; */
-        box-sizing: border-box;
-        margin: 5rem 5rem 7rem 5rem;
-        text-align: justify;
-
-        .titulo-cajas{
-            background-color: rgb(186, 255, 108);
-        }
-    }
+    @include flex(center, row, wrap);
+}
+.titulo-cajas{
+    background-color: $secondary;
+}
+.cajas{
+    height: 50rem;
+    width: 40rem;
+    font-size: $text-base;
+    box-sizing: border-box;
+    margin: 8rem 8rem 11.2rem 8rem;
+    text-align: justify;
 }

@@ -1,0 +1,48 @@
+/*CONTACTO*/
+
+.formulario{
+    width: 40rem;
+    background-color: burlywood;
+    padding: 4rem;
+    margin: auto;
+    margin-top: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+.formulario h1{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.controls{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.6rem;
+    border: 0.1rem solid #1f53c5;
+    font-size: 1rem;
+}
+.botons{
+    width: 100%;
+    border: none;
+    padding: 1.2rem;
+    color: black;
+    margin: 1.6rem 0;
+    font-size: 1.5rem;
+}
+.botons--enviar{
+    @extend .botons;
+    background-color: bisque;
+    &:hover{
+        background-color: rgb(241, 163, 68);
+    }
+}
+.botons--borrar{
+    @extend .botons;
+    background-color: rgb(252, 199, 134);
+    &:hover{
+        background-color: rgb(248, 146, 20);
+    }
+}
+ 
