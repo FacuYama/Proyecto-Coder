@@ -1,0 +1,10 @@
+
+
+@mixin flex($just-content, $dir, $f-wrap) {
+    display: flex;
+    justify-content: $just-content;
+    flex-direction: $dir;
+    flex-wrap: $f-wrap;
+
+
+}

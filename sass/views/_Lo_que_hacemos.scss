@@ -1,0 +1,25 @@
+/*LO QUE HACEMOS*/
+
+.visibilizacion-reuniondepares{
+    text-align: center;
+    background-color: $third;
+    color: $primary;
+    font-size: $text-base;
+}
+.grupo-de-pares{
+    text-align: left;
+    font-size: $text-base;
+    /* margin: 5rem 100rem 5rem 0rem; */
+    text-align: justify;
+}
+.titulo-grupo{
+    font-size: $text-medium;
+    background-color: $secondary;
+    text-align: center;
+
+}
+
+.noticias{
+    max-width: 12rem;
+    margin: 0 auto;
+}

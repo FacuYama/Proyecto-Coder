@@ -3,11 +3,11 @@
 .descripcion{
     position: relative;
     left: 11rem;
-    width: 600px;
-    padding: 10px;
+    width: 60rem;
+    padding: 1rem;
     display: block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: $text-base;
     text-align: justify;
     color: rgb(49, 48, 48);
 
@@ -21,7 +21,7 @@
 
     .video-titulo{
         padding: 5rem;
-        font-size: 40px;
+        font-size: 4rem;
     }
 }
 
@@ -30,19 +30,23 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+}
 
-    .cajas{
-        /* background-color: darksalmon; */
-        height: 500px;
-        width: 400px;
-        font-size: 20px;
-        /* border: 3px solid grey; */
-        box-sizing: border-box;
-        margin: 5rem 5rem 7rem 5rem;
-        text-align: justify;
+.cajas{
+    height: 52rem;
+    width: 40rem;
+    font-size: 2rem;
+    
+    box-sizing: border-box;
+    margin: 5rem 5rem 7rem 5rem;
+    text-align: justify;
 
-        .titulo-cajas{
-            background-color: rgb(186, 255, 108);
-        }
+    .titulo-cajas{
+        background-color: rgb(186, 255, 108);
     }
+}
+.portada{
+    padding-top: 11rem;
+    width: 100%;
+    height: 40rem;
 }

@@ -1,0 +1,34 @@
+.formulario{
+    width: 40rem;
+    background-color: $formulario;
+    padding: 4rem;
+    margin: auto;
+    margin-top: 10rem;
+    font-family: $font-formulario;
+    box-sizing: border-box;
+
+    .formulario h1{
+        font-size: $text-medium;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .controls{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        margin-bottom: 1.6rem;
+        border: 1px solid $alternative;
+        font-size: $text-base;
+    }
+    .botons{
+        width: 100%;
+        background-color: $boton-formulario-enviar;
+        border: none;
+        padding: 1.2rem;
+        color: black;
+        margin: 1.6rem 0;
+        font-size: $text-intermedio;
+    }
+
+}

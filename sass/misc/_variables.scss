@@ -1,0 +1,48 @@
+/*COLOR*/
+$primary: white;
+$secondary: rgb(186, 255, 108);
+$third: rgb(107, 212, 247);
+$text-color-1: rgb(59, 58, 58);
+$text-color-2: white;
+$text-color-3: #7a7a7a;
+$alternative: rgb(199, 199, 199);
+$formulario: burlywood;
+$boton-formulario-enviar: bisque;
+$boton-formulario-borrar: rgb(252, 199, 134);
+
+
+
+/*FONT-FAMILY*/
+$font-principal: Arial, Helvetica, sans-serif;
+$font-descripcion: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$font-formulario: 'Courier New', Courier, monospace;
+
+/*FONT-SIZES*/
+ $text-large: 4rem;
+ $text-medium: 2.2rem;
+ $text-base: 2rem;
+ $text-small: 1rem;
+ $text-intermedio: 1.5rem;
+ $text-titulo: 6rem;
+
+ $text:(
+    $text-large: 4rem,
+    $text-medium: 2.2rem,
+    $text-base: 2rem,
+    $text-small: 1rem,
+    $text-intermedio: 1.5rem,
+    $text-titulo: 6rem,
+);
+
+ @each $key, $val in $text {
+    .#{key} {
+        font-size: #{$val};
+    }
+}
+
+
+
+
+
+
+

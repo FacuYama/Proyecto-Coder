@@ -1,0 +1,42 @@
+/*PRENSA*/
+
+.prensa{
+    text-align: center;
+}
+.encuentro-con-el-presidente-de-la-nacion{
+    font-size: $text-medium;
+    background-color: $primary;
+    font-style: $font-principal
+}
+.texto-presidente{
+    font-size: $text-base;
+}
+.imagen-presidente{
+    transform: scale;
+}
+.encuentros-titulo{
+    font-size: $text-small;
+}
+.noticias{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+}
+.encuentros:nth-of-type(1){
+    grid-column: 1 / 5;
+    font-size: $text-titulo;
+    text-align: center;
+
+}
+.grilla > div{
+    border: 0.1rem solid black;
+    background-color: $boton-formulario-enviar;
+}
+.encuentros{
+    font-size: $text-base;
+}
