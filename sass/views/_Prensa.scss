@@ -2,11 +2,12 @@
 
 .prensa{
     text-align: center;
+    margin-top: 10rem;
 }
 .encuentro-con-el-presidente-de-la-nacion{
     font-size: $text-medium;
     background-color: $primary;
-    font-style: $font-principal
+    font-family: cursive;
 }
 .texto-presidente{
     font-size: $text-base;
@@ -16,6 +17,7 @@
 }
 .encuentros-titulo{
     font-size: $text-small;
+    font-family: cursive;
 }
 .noticias{
     max-width: 120rem;
@@ -36,7 +38,15 @@
 .grilla > div{
     border: 0.1rem solid black;
     background-color: $boton-formulario-enviar;
+    border-radius: 1rem;
 }
 .encuentros{
     font-size: $text-base;
+    text-decoration: none;
+}
+
+.prensa-noticias{
+    text-decoration: none;
+    font-family: $font-descripcion;
+    color: $text-color-1;
 }

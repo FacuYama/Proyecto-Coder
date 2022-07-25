@@ -1,5 +1,15 @@
 /*QUIENES SOMOS*/
 
+.fondo{
+    background:  linear-gradient(rgba(255, 255, 255, 0.75), rgba(173, 173, 173, 0.75)), 
+    url(https://secureservercdn.net/198.12.144.78/79a.116.myftpupload.com/wp-content/uploads/2020/08/logo-vertical-OK.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+}
+
 .descripcion-quienes-somos{
     position: relative;
     left: 11rem;
@@ -10,6 +20,7 @@
     font-size: $text-base;
     text-align: justify;
     color: $text-color-1;
+    margin-top: 10rem;
 }
 .descripcion-titulo-quienes-somos{
     background-color: $secondary;
@@ -121,3 +132,15 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
     }
 
     }
+.imagen-mano{
+    margin-left: 43%;
+    max-width: 15%;
+}
+.manifiesto{
+    text-align: center;
+    font-size: $text-base;
+}
+.manifiesto-link{
+    text-decoration: none;
+    color: $text-color-5;
+}

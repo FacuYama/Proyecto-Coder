@@ -1,5 +1,20 @@
 /*HOME*/
 
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-imagen{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    /* margin-left: 30%; */
+    justify-content: center;
+    align-items: center;
+}
+
 .descripcion{
     position: relative;
     left: 11rem;
@@ -18,10 +33,21 @@
 
 .videos{
     text-align: center;
+    /* margin-left: 20rem;
+    margin-right: 20rem; */
 
     .video-titulo{
         padding: 5rem;
         font-size: 4rem;
+        font-family: cursive; 
+        color: $text-color-4;
+    }
+
+    .video-video{
+        width: 100%;
+        height: 500px;
+        border-radius: 4rem;
+        border-color: black;
     }
 }
 
@@ -45,8 +71,56 @@
         background-color: rgb(186, 255, 108);
     }
 }
-.portada{
-    padding-top: 11rem;
-    width: 100%;
-    height: 40rem;
+
+.libro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.libro-contenido{
+    height: 38rem;
+    width: 40rem;
+    font-size: 2rem;
+    
+    box-sizing: border-box;
+    margin: 5rem 20rem 3rem 5rem;
+    text-align: justify;
+
+    .titulo-libro{
+        font-family: cursive;
+    }
+}
+
+.testimonios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.texto-testimonio{
+    height: 38rem;
+    width: 35rem;
+    font-size: 2rem;
+    
+    box-sizing: border-box;
+    margin: 5rem 20rem 3rem 5rem;
+    text-align: justify;
+}
+
+.fa-circle-user{
+    font-size: 8rem;
+    text-align: center;
+}
+.texto-testimonio{
+    font-size: $text-intermedio;
+}
+.testimonios-descripcion{
+    color: $text-color-3;
+}
+.texto-autor{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
